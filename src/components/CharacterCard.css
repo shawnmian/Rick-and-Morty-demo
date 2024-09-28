@@ -1,0 +1,63 @@
+/* src/components/CharacterCard.css */
+
+/* Base styles for character cards */
+.character-card {
+    background-color: white; /* Default light theme background */
+    color: black;            /* Default text color */
+    padding: 1rem;
+    border: 1px solid #ccc;  /* Border color */
+    border-radius: 8px;      /* Rounded corners */
+    text-align: left;        /* Align text to the left */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+    margin: 1rem;           /* Space between cards */
+
+  }
+  
+  /* Style for the character image */
+  .character-image {
+    width: 100%;            /* Make image responsive to card width */
+    height: auto;           /* Maintain aspect ratio */
+    border-radius: 8px;     /* Match border radius of the card */
+    margin-bottom: 0.5rem;  /* Space below the image */
+  }
+  
+  /* Dark mode styles for character cards */
+  body.dark-mode .character-card {
+    background-color: #2c2c2c; /* Darker background for dark theme */
+    color: white;              /* Change text color to white for better contrast */
+  }
+  
+  /* Character name styling */
+  .character-name {
+    font-size: 1.5rem;       /* Large text for the name */
+    margin: 0;               /* Remove default margin */
+  }
+  
+  /* Character date styling */
+  .character-date {
+    font-size: 0.875rem;     /* Smaller text for the date */
+    color: gray;             /* Grey color for the date */
+    margin: 0.5rem 0;        /* Space above and below the date */
+  }
+  
+  /* Details for gender and status */
+  .character-details {
+    margin-top: 0.5rem;      /* Space above the details */
+  }
+  
+  /* Space between gender and status */
+  .character-gender-status {
+    font-size: 0.875rem;      /* Smaller text for gender and status */
+    color: black;             /* Keep text color in light mode */
+    margin: 0;                /* Remove default margin */
+  }
+  
+  .character-gender-status + .character-gender-status {
+    margin-top: 0.2rem;      /* Adjust space between gender and status in light mode */
+  }
+  
+  /* Dark mode adjustments for gender and status */
+  body.dark-mode .character-gender-status {
+    color: white;             /* Change to white in dark mode */
+  }
+  
