@@ -15,3 +15,6 @@ Main issues faced were:\
 -UX design, not a personal strongsuit, had to lookup how to make things more aesthically pleasing.\
 -Filtering errors. When selecting for time created had errors. Fixed soon after
 
+## Extras added
+-Dark Mode
+
